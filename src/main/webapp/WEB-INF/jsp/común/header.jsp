@@ -38,7 +38,7 @@
 
           <div class="inicio-sesion">
             <img src="/multimedia/sgv/usu-inicio.svg" alt="logo inicio sesión">
-            <a href="/html/inicio-sesion.html">
+            <a href="/login">
               <button class="btn-inicio">Iniciar Sesión</button>
             </a>
           </div>

@@ -3,16 +3,21 @@ package com.titaniclift.titanicliftweb.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Data
+import java.util.HashSet;
+import java.util.Set;
+
+@Setter
+@Getter
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "usuariosRegistrados", uniqueConstraints = {@UniqueConstraint(columnNames = {"username"})})
+@NoArgsConstructor
 @Entity
-public class Usuarios {
+@Table(name = "clases")
+public class clases {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String username;
-    private String password;
+    private String nombre;
+    private String descripcion;
+    private String imagenUrl;
 }

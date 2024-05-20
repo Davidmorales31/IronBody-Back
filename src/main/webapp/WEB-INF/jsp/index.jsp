@@ -8,6 +8,7 @@
   <link href="/css-bootstrap/bootstrap.min.css" rel="stylesheet">
   <link href="/css/index.css" rel="stylesheet">
   <script src="/js/calcu-imc.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dekko&family=Dosis:wght@200&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Exo:ital,wght@1,100;1,200&family=Patrick+Hand&family=Pixelify+Sans&family=Red+Hat+Display:wght@300&family=Source+Sans+3:wght@200;300&display=swap" rel="stylesheet">
   <title>Iron Body</title>
 </head>
@@ -179,7 +180,7 @@
       </div>
     
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
       
     </main>
 
